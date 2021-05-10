@@ -1,0 +1,19 @@
+{
+  "name": "datavisapp",
+  "version": "1.0.0",
+  "description": "None",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./start.js",
+    "watch": "nodemon ./start.js"
+  },
+  "author": "Jenkin Dsouza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mustache-express": "^1.3.0",
+    "neo4j-driver": "^4.2.3",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
+}
